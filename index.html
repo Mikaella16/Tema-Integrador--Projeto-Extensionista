@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Inclusão Digital e Acessibilidade</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #222;
+      padding: 20px;
+      transition: all 0.3s ease;
+      font-size: 16px;
+    }
+
+    header, nav, main, footer {
+      margin-bottom: 20px;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      border-radius: 15px;
+      margin-bottom: 30px;
+    }
+    .hero h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+    }
+    .hero button {
+      background: #ff6b6b;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 25px;
+      font-size: 1.1em;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .hero button:hover {
+      background: #ff5252;
+    }
+
+    nav a {
+      margin-right: 15px;
+      text-decoration: none;
+      color: #0055aa;
+    }
+    nav a:focus, nav a:hover {
+      text-decoration: underline;
+    }
+
+    .card {
+      background: linear-gradient(135deg, #ffffff 0%, #f0f8ff 100%);
+      padding: 20px;
+      margin: 15px 0;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      border: 1px solid #e0e0e0;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+    }
+
+    .secao-imagem {
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+      border-radius: 10px;
+      margin: 10px 0;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    main {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+
+    /* Botão flutuante voltar ao topo */
+    .btn-voltar-topo {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: linear-gradient(135deg, #007bff, #0056b3);
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      font-size: 20px;
+      cursor: pointer;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      z-index: 1000;
+      display: none;
+      transition: opacity 0.3s ease;
+    }
+    .btn-voltar-topo:hover {
+      background: linear-gradient(135deg, #0056b3, #004085);
+    }
+
+    button {
+      padding: 10px 15px;
+      border: none;
+      background: #0055aa;
+      color: white;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    button:focus {
+      outline: 3px solid yellow;
+    }
+
+    footer {
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    /* Acessibilidade: modo alto contraste */
+    .alto-contraste {
+      background-color: black !important;
+      color: yellow !important;
+    }
+    .alto-contraste .card {
+      background: #111 !important;
+      color: yellow !important;
+    }
+
+    /* Menu de acessibilidade */
+    .acessibilidade {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      background: white;
+      border: 2px solid #0055aa;
+      border-radius: 12px;
+      padding: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      z-index: 1000;
+    }
+    .acessibilidade button {
+      display: block;
+      margin: 5px 0;
+      width: 100%;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <h1>🌍 Inclusão Digital e Acessibilidade</h1>
+    <p>Um site para conscientizar sobre a importância de tornar a tecnologia acessível para todos. Explore tópicos sobre ODS 10, tecnologias assistivas e boas práticas para um mundo mais inclusivo.</p>
+    <button onclick="document.getElementById('conteudo').scrollIntoView({behavior: 'smooth'})">Explorar Conteúdo</button>
+  </header>
+
+  <nav aria-label="Navegação principal">
+    <a href="#conteudo">Conteúdo</a>
+  </nav>
+
+  <main id="conteudo">
+    <!-- Seções carregadas dinamicamente vão aparecer aqui -->
+  </main>
+
+
+
+  <footer>
+    <p>📌 Projeto acadêmico - Acessibilidade e Inclusão Digital</p>
+    <nav aria-label="Links do footer">
+      <a href="https://www.un.org/sustainabledevelopment/inequality-reduction/" target="_blank">ODS 10 - ONU</a> |
+      <a href="https://www.w3.org/WAI/" target="_blank">WCAG</a> |
+      <a href="https://www.gov.br/mdh/pt-br/acessibilidade-e-inclusao" target="_blank">Lei Brasileira de Acessibilidade</a>
+    </nav>
+  </footer>
+
+  <!-- Menu de acessibilidade -->
+  <div class="acessibilidade" aria-label="Menu de acessibilidade">
+    <button onclick="lerTexto()">🔊 Ler conteúdo</button>
+    <button onclick="toggleContraste()">🌓 Alto contraste</button>
+    <button onclick="aumentarFonte()">🔠 Aumentar fonte</button>
+    <button onclick="diminuirFonte()">🔡 Diminuir fonte</button>
+  </div>
+
+  <!-- Botão flutuante voltar ao topo -->
+  <button class="btn-voltar-topo" onclick="window.scrollTo({top: 0, behavior: 'smooth'})" aria-label="Voltar ao topo">↑</button>
+
+  <script>
+    // Carregar conteúdo do JSON
+    fetch("conteudo.json")
+      .then(response => response.json())
+      .then(data => {
+        const conteudo = document.getElementById("conteudo");
+        data.secoes.forEach(secao => {
+          const div = document.createElement("section");
+          div.classList.add("card");
+          let html = `<h2>${secao.titulo}</h2>`;
+          if (secao.imagem) {
+            html += `<img src="${secao.imagem}" alt="${secao.alt}" class="secao-imagem">`;
+          }
+          secao.subsecoes.forEach(sub => {
+            html += `<h3>${sub.subtitulo}</h3><p>${sub.texto}</p>`;
+          });
+          div.innerHTML = html;
+          conteudo.appendChild(div);
+        });
+      });
+
+    // Leitura de texto em voz alta
+    function lerTexto() {
+      const texto = document.body.innerText;
+      const utterance = new SpeechSynthesisUtterance(texto);
+      utterance.lang = "pt-BR";
+      speechSynthesis.speak(utterance);
+    }
+
+    // Alternar contraste
+    function toggleContraste() {
+      document.body.classList.toggle("alto-contraste");
+    }
+
+    // Controle de fonte
+    let tamanhoFonte = 16;
+    function aumentarFonte() {
+      tamanhoFonte += 2;
+      document.body.style.fontSize = tamanhoFonte + "px";
+    }
+    function diminuirFonte() {
+      if (tamanhoFonte > 12) {
+        tamanhoFonte -= 2;
+        document.body.style.fontSize = tamanhoFonte + "px";
+      }
+    }
+
+    // Mostrar/ocultar botão voltar ao topo
+    window.addEventListener('scroll', function() {
+      const btn = document.querySelector('.btn-voltar-topo');
+      if (window.scrollY > 200) {
+        btn.style.display = 'block';
+      } else {
+        btn.style.display = 'none';
+      }
+    });
+  </script>
+</body>
+</html>

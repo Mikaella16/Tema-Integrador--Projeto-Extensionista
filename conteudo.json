@@ -1,0 +1,164 @@
+{
+  "secoes": [
+    {
+      "titulo": "O que é Inclusão Digital?",
+      "subsecoes": [
+        {
+          "subtitulo": "Definição",
+          "texto": "Inclusão digital significa garantir que todas as pessoas, incluindo aquelas com deficiência, tenham acesso e consigam usar tecnologias, sites e aplicativos de forma simples e eficaz. É um direito fundamental que promove igualdade de oportunidades."
+        },
+        {
+          "subtitulo": "Importância",
+          "texto": "A inclusão digital combate a exclusão social, permitindo que pessoas com deficiência participem plenamente da sociedade digital. Segundo a ONU, milhões de pessoas ainda enfrentam barreiras tecnológicas."
+        },
+        {
+          "subtitulo": "ODS 10 - Redução das Desigualdades",
+          "texto": "Este conceito alinha-se diretamente com o ODS 10 da ONU, que visa reduzir desigualdades dentro e entre países, empoderando grupos vulneráveis como pessoas com deficiência."
+        }
+      ],
+      "imagem": "https://via.placeholder.com/400x200?text=Inclusao+Digital",
+      "alt": "Ilustração de pessoas acessando tecnologia de forma inclusiva"
+    },
+    {
+      "titulo": "Por que criar apps acessíveis?",
+      "subsecoes": [
+        {
+          "subtitulo": "Benefícios Sociais",
+          "texto": "Sites e aplicativos acessíveis facilitam a vida de milhões de pessoas, promovendo inclusão e diversidade. Recursos como leitura de tela ajudam usuários com deficiências visuais."
+        },
+        {
+          "subtitulo": "Recursos Essenciais",
+          "texto": "Elementos fundamentais incluem: contraste de cores adequado, legendas em vídeos, navegação por teclado e design responsivo para dispositivos móveis."
+        },
+        {
+          "subtitulo": "Impacto Econômico",
+          "texto": "Apps acessíveis expandem o mercado, alcançando mais usuários e gerando oportunidades de negócio. Empresas como Google e Apple priorizam acessibilidade em seus produtos."
+        }
+      ],
+      "imagem": "https://via.placeholder.com/400x200?text=Apps+Acessiveis",
+      "alt": "Captura de tela de um aplicativo acessível com recursos de navegação"
+    },
+    {
+      "titulo": "ODS 10 - Redução das Desigualdades",
+      "subsecoes": [
+        {
+          "subtitulo": "Objetivo da ONU",
+          "texto": "O ODS 10 busca reduzir desigualdades dentro e entre países até 2030, incluindo acesso equitativo à informação e tecnologia."
+        },
+        {
+          "subtitulo": "Contribuição da Inclusão Digital",
+          "texto": "Projetos como este empoderam pessoas com deficiência, promovendo equidade no acesso à educação, emprego e serviços digitais."
+        },
+        {
+          "subtitulo": "Estatísticas Globais",
+          "texto": "Cerca de 15% da população mundial vive com alguma deficiência, e muitos enfrentam barreiras digitais. A inclusão digital é chave para alcançar o ODS 10."
+        }
+      ],
+      "imagem": "https://via.placeholder.com/400x200?text=ODS+10",
+      "alt": "Logotipo dos Objetivos de Desenvolvimento Sustentável da ONU"
+    },
+    {
+      "titulo": "Benefícios da Inclusão Digital",
+      "subsecoes": [
+        {
+          "subtitulo": "Participação Social",
+          "texto": "Maior participação em redes sociais, comunidades online e eventos virtuais, combatendo isolamento."
+        },
+        {
+          "subtitulo": "Oportunidades de Emprego",
+          "texto": "Acesso a vagas remotas, treinamentos online e ferramentas de trabalho acessíveis, ampliando chances de emprego."
+        },
+        {
+          "subtitulo": "Independência e Autonomia",
+          "texto": "Tecnologias assistivas promovem autonomia, permitindo que pessoas com deficiência realizem tarefas diárias sem dependência excessiva."
+        }
+      ],
+      "imagem": "https://via.placeholder.com/400x200?text=Beneficios",
+      "alt": "Pessoa sorrindo ao usar tecnologia acessível"
+    },
+    {
+      "titulo": "Tecnologias Assistivas",
+      "subsecoes": [
+        {
+          "subtitulo": "Leitores de Tela",
+          "texto": "Softwares como JAWS ou NVDA convertem texto em fala, ajudando usuários com deficiências visuais."
+        },
+        {
+          "subtitulo": "Ampliadores de Tela",
+          "texto": "Ferramentas que aumentam o tamanho do texto e imagens na tela para usuários com baixa visão."
+        },
+        {
+          "subtitulo": "Reconhecimento de Voz",
+          "texto": "Softwares como Dragon permitem controle por voz, útil para pessoas com mobilidade reduzida."
+        },
+        {
+          "subtitulo": "Dispositivos Alternativos",
+          "texto": "Teclados adaptados, joysticks e switches para entrada alternativa em dispositivos."
+        }
+      ],
+      "imagem": "https://via.placeholder.com/400x200?text=Tecnologias+Assistivas",
+      "alt": "Exemplos de tecnologias assistivas como leitores de tela e ampliadores"
+    },
+    {
+      "titulo": "Como contribuir para a acessibilidade",
+      "subsecoes": [
+        {
+          "subtitulo": "Diretrizes WCAG",
+          "texto": "Seguir as Web Content Accessibility Guidelines (WCAG) para garantir conformidade internacional."
+        },
+        {
+          "subtitulo": "Ferramentas de Teste",
+          "texto": "Usar ferramentas como WAVE, Axe ou Lighthouse para identificar e corrigir problemas de acessibilidade."
+        },
+        {
+          "subtitulo": "Inclusão de Usuários",
+          "texto": "Incluir pessoas com deficiência no processo de design e testes para feedback real."
+        }
+      ],
+      "imagem": "https://via.placeholder.com/400x200?text=Contribuir",
+      "alt": "Equipe colaborando em design acessível"
+    },
+    {
+      "titulo": "Legislação e Normas",
+      "subsecoes": [
+        {
+          "subtitulo": "Lei Brasileira de Acessibilidade",
+          "texto": "A Lei nº 13.146/2015 garante direitos à acessibilidade, incluindo digital, para pessoas com deficiência no Brasil."
+        },
+        {
+          "subtitulo": "Normas Internacionais",
+          "texto": "WCAG 2.1 e seções 508 nos EUA estabelecem padrões para acessibilidade web."
+        },
+        {
+          "subtitulo": "Obrigações Legais",
+          "texto": "Empresas e governos devem cumprir essas normas para evitar multas e promover inclusão."
+        }
+      ],
+      "imagem": "https://via.placeholder.com/400x200?text=Legislacao",
+      "alt": "Documento legal sobre acessibilidade"
+    },
+    {
+      "titulo": "Exemplos de boas práticas",
+      "subsecoes": [
+        {
+          "subtitulo": "Alt Text em Imagens",
+          "texto": "Descrever imagens com texto alternativo para leitores de tela."
+        },
+        {
+          "subtitulo": "Navegação por Teclado",
+          "texto": "Garantir que todos os elementos sejam acessíveis via teclado (Tab, Enter)."
+        },
+        {
+          "subtitulo": "Legendas em Vídeos",
+          "texto": "Adicionar legendas sincronizadas para conteúdo audiovisual."
+        },
+        {
+          "subtitulo": "Design Responsivo",
+          "texto": "Criar layouts que se adaptem a diferentes dispositivos e tamanhos de tela."
+        }
+      ],
+      "imagem": "https://via.placeholder.com/400x200?text=Boas+Praticas",
+      "alt": "Exemplo de site com boas práticas de acessibilidade"
+    }
+  ]
+}
